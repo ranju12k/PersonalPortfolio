@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="FrontEnd/Projects/Projects.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="ProjectsController.js"></script>
+</head>
+<body ng-controller="ProjectsController">
+  <div name="work" class="work-background">
+    <div class="max-w-1000 mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div class="pb-8 w-full flex justify-center items-center flex-col">
+        <p class="section-title">Work</p>
+        <p class="section-subtitle">Check out some of my most recent work</p>
+      </div>
+
+      <!-- Container -->
+      <div class="grid-container">
+        <!-- Grid Item -->
+        <div ng-repeat="item in works" class="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div" ng-style="{'background-image': 'url(' + item.image + ')'}">
+          <!-- Hover Effects -->
+          <div class="hover-content flex justify-center items-center flex-col">
+            <span class="text-lg font-bold text-white tracking-wider">{{ item.title }}</span>
+            <p class="text-center text-white">{{ item.description }}</p>
+            <div class="pt-8 text-center">
+              <a ng-href="{{ item.demoLink }}">
+                <button class="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+              </a>
+              <a ng-href="{{ item.codeLink }}">
+                <button class="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="FrontEnd/Navbar/Navbar.css">
+  <link rel="stylesheet" href="FrontEnd/Home/Home.css">
+  <link rel="stylesheet" href="FrontEnd/Contact/Contact.css">
+  <link rel="stylesheet" href="FrontEnd/Projects/Projects.css">
+  <link rel="stylesheet" href="FrontEnd/About/About.css">
+  <link rel="stylesheet" href="FrontEnd/Skills/Skills.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+  <script src="app.js" defer></script>
+  <script src="FrontEnd/Home/HomeController.js" defer></script>
+  <script src="FrontEnd/Contact/ContactController.js" defer></script>
+  <script src="FrontEnd/Contact/ContactService.js" defer></script>
+  <script src="FrontEnd/Projects/ProjectsController.js" defer></script>
+  <script src="FrontEnd/About/AboutController.js" defer></script>
+  <script src="FrontEnd/Skills/SkillsController.js" defer></script>
+  <link rel="shortcut icon" href="#" />
+</head>
+<body ng-app="profile">
+  <!-- Navbar is included directly in the index.html -->
+  <div ng-include="'FrontEnd/Navbar/Navbar.html'"></div>
+  <div ng-view></div>
+  <div ng-include="'FrontEnd/Footer/Footer.html'"></div>
+  <!-- Content controlled by AngularJS routing -->
+  
+</body>
+</html>

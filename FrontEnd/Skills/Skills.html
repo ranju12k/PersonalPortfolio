@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="FrontEnd/Skills/Skills.css">
+
+<body ng-controller="SkillsController">
+    <div class="skills-container">
+        <div class="max-w-1000">
+            <h1 class="title">Skills</h1>
+            <p class="description">I enjoy diving into and learning new things. Here's a list of technologies I've worked with:</p>
+            <div class="grid">
+                <div class="skill-item" ng-repeat="skill in skills">
+                    <p class="skill-name">{{ skill }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

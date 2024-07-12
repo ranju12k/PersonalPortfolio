@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="FrontEnd/About/About.css">
+
+<body ng-controller="AboutController">
+    <div class="about-container">
+        <h1>{{ info.name }}</h1>
+        <p><strong>{{ info.pronouns }}</strong></p>
+        <p><strong>{{ info.position }}</strong></p>
+        <p>{{ info.summary }}</p>
+
+        <h2>Key Skills</h2>
+        <ul>
+            <li ng-repeat="skill in info.skills">{{ skill }}</li>
+        </ul>
+        
+        <h2>Education</h2>
+        <p>{{ info.education }}</p>
+
+        <h2>Languages</h2>
+        <ul>
+            <li ng-repeat="language in info.languages">{{ language }}</li>
+        </ul>
+
+        <h2>Licenses & Certifications</h2>
+        <ul>
+            <li ng-repeat="cert in info.certifications">{{ cert }}</li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="AngularController.js"></script>
+</body>

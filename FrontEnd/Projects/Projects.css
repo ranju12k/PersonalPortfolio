@@ -1,0 +1,80 @@
+/* General styles for the project container */
+.work-background {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #ccc;
+    background-color: #00bcd4; /* Dark background for better contrast */
+    padding: 50px 0;
+}
+
+/* Grid container to ensure three items per row */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between items */
+}
+
+/* Style for the project items */
+.content-div {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    backdrop-filter: blur(10px); /* Blurring effect for the background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Hover effect on project items */
+.content-div:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Overlay effect on hover */
+.content-div:hover .hover-content {
+    opacity: 1;
+}
+
+/* Hide hover content initially */
+.hover-content {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Button styles */
+button {
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effects */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Section title styles */
+.section-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 4px solid #00bcd4;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Section subtitle styles */
+.section-subtitle {
+    font-size: 2rem;
+    color: #060505;
+    margin-bottom: 50px;
+}
