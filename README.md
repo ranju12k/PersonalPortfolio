@@ -12,7 +12,7 @@ PersonalPortfolio is a web application developed using AngularJS, Node.js, Expre
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [Instructions to run Application](#Instructions-to-run-Application)
-- [Screen Shots of the application](##ScreenShots)
+- [Screen Shots of the application](#ScreenShots)
 
 ## Introduction
 
@@ -63,32 +63,20 @@ To run this project locally, follow these steps:
 
 ## ScreenShots
 
-1. Home Page 
-
-         ![image](https://github.com/user-attachments/assets/7e7bed31-df73-4bec-940f-7bde30d34794)
+1. Home Page:![image](https://github.com/user-attachments/assets/7e7bed31-df73-4bec-940f-7bde30d34794)
 
 
 
-2.About ME Page 
-
-         ![image](https://github.com/user-attachments/assets/90dbcc08-680a-4e3e-8052-0805f6aa276a)
+2.About ME Page:![image](https://github.com/user-attachments/assets/90dbcc08-680a-4e3e-8052-0805f6aa276a)
 
 
-3.Projects 
+3.Projects:![image](https://github.com/user-attachments/assets/70dcb568-5f57-4243-85b3-d683c367e5ef)
 
-         ![image](https://github.com/user-attachments/assets/70dcb568-5f57-4243-85b3-d683c367e5ef)
+4.Skills:![image](https://github.com/user-attachments/assets/dfd28ad0-3f8a-42cb-a5f2-be081a811540)
 
-4.Skills 
+5.Contact Page:![image](https://github.com/user-attachments/assets/7854bbd9-bb71-4aaf-a98b-7c5c655cb215)
 
-         ![image](https://github.com/user-attachments/assets/dfd28ad0-3f8a-42cb-a5f2-be081a811540)
-
-5.Contact Page 
-
-         ![image](https://github.com/user-attachments/assets/7854bbd9-bb71-4aaf-a98b-7c5c655cb215)
-
-6.Footer 
-
-         ![image](https://github.com/user-attachments/assets/577a406c-5afd-4ee7-94e5-b1123ed3946b)
+6.Footer:![image](https://github.com/user-attachments/assets/577a406c-5afd-4ee7-94e5-b1123ed3946b)
 
 
 
