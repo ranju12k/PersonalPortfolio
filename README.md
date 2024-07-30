@@ -1,6 +1,6 @@
 # PersonalPortfolio
 
-PersonalPortfolio is a web application developed using AngularJS, Node.js, Express.js, and MongoDB, designed to showcase my projects, skills, and achievements in a professional portfolio format.
+PersonalPortfolio is a web application developed using AngularJS, Node.js, Express.js, and MongoDB, designed to showcase  projects, skills, and achievements in a professional portfolio format.
 
 ## Table of Contents
 - [Introduction](#introduction)
