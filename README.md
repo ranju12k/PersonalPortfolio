@@ -31,7 +31,7 @@ View a live demo of the application [#demo](Portfolio-Demo).
 
 ## Technologies Used
 
-- **Frontend**: AngularJS
+- **Frontend**: AngularJS,HTML,CSS,JS,Bootstrap
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 
